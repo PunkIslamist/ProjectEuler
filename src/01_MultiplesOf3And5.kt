@@ -4,8 +4,8 @@
  * Find the sum of all the multiples of 3 or 5 below 1000.
  */
 
-fun multiples() = (1..1000).toList().filter { it % 3 == 0 || it % 5 == 0 }
+fun sumdidum() = (1..1000).toList().filter { it % 3 == 0 || it % 5 == 0 }.sum()
 
 fun main(args: Array<String>) {
-    multiples().forEach(System.out::println)
+    System.out.println(sumdidum())
 }
